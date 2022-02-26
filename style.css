@@ -34,8 +34,6 @@ body {
 
 .control_btn button {
   width: 80px;
-}
-.control_btn button:last-child {
   margin-left: 20px;
 }
 
@@ -67,4 +65,14 @@ body {
 
 .customRange:hover {
   opacity: 1;
+}
+
+#sizeValue {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#currentValue {
+  font-family: 8px;
+  font-weight: 700;
 }
